@@ -2,5 +2,5 @@ class Piglatinizer
   
   
   def piglatinator(input_string)
-    input_string.split('')
+    input_string.split('').length 
   end 
