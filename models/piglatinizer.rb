@@ -1,4 +1,6 @@
 class Piglatinizer
   
   
-  def piglatine
+  def piglatinator(input_string)
+    
+  end 
