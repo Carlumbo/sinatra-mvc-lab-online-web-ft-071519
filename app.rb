@@ -8,6 +8,6 @@ class App < Sinatra::Base
   
   post '/piglatinze' do 
     
-    pl = Piglatinizer
+    pl = Piglatinizer.new
     @piglatin = pl.piglatinze
 end
