@@ -11,6 +11,6 @@ class Piglatinizer
     
     if !consonant?(word[0])
       word = word + w 
-    elsif consonant?(word[0])
+    elsif consonant?(word[0]) && consonant(word[1])
   
   end 
