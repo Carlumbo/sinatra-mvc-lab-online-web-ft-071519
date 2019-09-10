@@ -14,7 +14,7 @@ class PigLatinizer
   def pigify_word(word)
     
     if !consonant?(word[0])
-      word = word + w 
+      word = word + "w" 
     elsif consonant?(word[0]) && consonant?(word[1]) && consonant?(word[2])
         word.slice(3..-1) + word.slice(0,3)
     elsif consonant?(word[0]) && consonant?(word[1])
