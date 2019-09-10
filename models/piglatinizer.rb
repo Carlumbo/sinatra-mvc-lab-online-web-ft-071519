@@ -18,7 +18,7 @@ class Piglatinizer
     else
       word = word.slice(1..-1) + word.slice(0,1)
     end 
-    word + ay
+    word << ay
   end 
 
   
