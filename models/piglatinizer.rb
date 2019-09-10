@@ -1,7 +1,7 @@
 class PigLatinizer
   
   
-  def piglatinator(input_string)
+  def piglatinize(input_string)
     input_string.split(' ').length = 1 ? pigify_word(input_string) : pigifiy_sentence(input_string) 
   end 
   
