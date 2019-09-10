@@ -6,5 +6,7 @@ class App < Sinatra::Base
     erb :user_input
   end 
   
-  post '/piglatin
+  post '/piglatinze' do 
+    
+    pl = Piglatinizer
 end
