@@ -2,5 +2,11 @@ class Piglatinizer
   
   
   def piglatinator(input_string)
-    input_string.split('').length = 1 ? piglatinator
+    input_string.split('').length = 1 ? 
+  end 
+  
+  
+  
+  def pigify_word
+  
   end 
