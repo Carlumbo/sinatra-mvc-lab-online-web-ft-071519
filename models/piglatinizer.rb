@@ -10,5 +10,7 @@ class Piglatinizer
   def pigify_word(word)
     
     if !consonant?(word[0])
+      word = word + w 
+      
   
   end 
