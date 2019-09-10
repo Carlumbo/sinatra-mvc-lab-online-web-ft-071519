@@ -20,6 +20,7 @@ class Piglatinizer
     end 
     word << ay
   end 
-
+   def pigifiy_sentence 
+     s
   
   end 
