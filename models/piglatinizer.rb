@@ -19,9 +19,12 @@ class Piglatinizer
       word = word.slice(1..-1) + word.slice(0,1)
     end 
     word << ay
-  end 
+   end 
+  
+  
    def pigifiy_sentence(sentence)
-     sentence.spilt.collect {|word| pigify_word(word) }.join("")
+     sentence.spilt.collect {|word| pigify_word(word) }.join(" ")
+   end
      
   
   end 
