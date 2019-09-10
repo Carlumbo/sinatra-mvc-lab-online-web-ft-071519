@@ -20,7 +20,8 @@ class Piglatinizer
     end 
     word << ay
   end 
-   def pigifiy_sentence 
-     s
+   def pigifiy_sentence(sentence)
+     sentence.spilt.collect = 
+     
   
   end 
