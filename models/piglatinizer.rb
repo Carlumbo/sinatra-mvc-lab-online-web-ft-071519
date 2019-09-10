@@ -21,7 +21,7 @@ class Piglatinizer
     word << ay
   end 
    def pigifiy_sentence(sentence)
-     sentence.spilt.collect = 
+     sentence.spilt.collect {|word| pigify_word(word)}
      
   
   end 
